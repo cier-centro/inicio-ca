@@ -1233,4 +1233,18 @@ h1.logo {
       .site-inicioca .search-banner p {
         display: none; } }
 
+.site-inicioca .view-content {
+  min-height: 150px; }
+.site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal {
+  width: 100% !important; }
+  .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 100% !important; }
+  .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-item.jcarousel-item-horizontal .alleys {
+    min-height: 140px;
+    min-width: 140px;
+    margin-bottom: 50px; }
+    .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-item.jcarousel-item-horizontal .alleys .views-field.views-field-field-imagen-contenido {
+      height: 130px;
+      width: 130px; }
+
 /*# sourceMappingURL=site-styles.css.map */
