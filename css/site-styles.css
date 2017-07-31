@@ -657,70 +657,89 @@ h1.logo {
  * Main Menu Styles
  * --------------------------------------------------
  */
-.site-inicioca #microsite_panel .slide .pane-content > .menu {
-  background-color: #2a569b !important; }
-  .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 10px 5px !important;
-    font-size: 15px !important; }
-  .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu {
-    top: 95%;
-    height: 0px;
-    background: transparent;
-    z-index: 100; }
-    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li {
-      display: block; }
-      .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:first-child {
-        border-top: none; }
-      .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:last-child {
-        border-bottom: none; }
-      .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
-        background-color: #0b204e !important;
-        border-bottom: 1px solid rgba(153, 153, 153, 0.4) !important;
-        color: white !important;
-        line-height: 14px;
-        font-size: 14px !important;
-        height: auto;
-        padding: 15px; }
-        .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a:hover {
-          background: #000a34 !important;
-          color: #cc8e55 !important;
-          text-decoration: none;
-          padding: 18px 15px !important;
-          display: block;
-          font-weight: 600;
-          -webkit-transition: all 0.2s ease;
-          -moz-transition: all 0.2s ease;
-          -ms-transition: all 0.2s ease;
-          -o-transition: all 0.2s ease;
-          transition: all 0.2s ease; }
-  .site-inicioca #microsite_panel .slide .pane-content > .menu li:hover {
-    color: #cc8e55;
-    text-decoration: none !important;
-    background-color: #0b204e; }
-  .site-inicioca #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
-    color: #cc8e55 !important;
-    text-decoration: none !important;
-    background-color: #0b204e; }
-  .site-inicioca #microsite_panel .slide .pane-content > .menu:hover {
-    color: #cc8e55 !important;
-    text-decoration: none !important; }
-    .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
-      background-color: #0b204e;
-      height: auto; }
-    .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
+.site-inicioca #microsite_panel .slide {
+  position: absolute;
+  top: 205px;
+  right: 0;
+  width: 760px; }
+  .site-inicioca #microsite_panel .slide .pane-content > .menu {
+    background-color: transparent !important;
+    display: flex;
+    align-items: center; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu:before {
+      content: "";
+      min-width: 35px;
+      background: #00C9CA;
+      height: 55px; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
+      padding: 5px !important;
+      font-size: 13px !important;
+      font-weight: 400 !important;
+      height: 40px;
+      background: #29879E;
+      min-width: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu {
+      top: 95%;
+      height: 0px;
+      background: transparent;
+      z-index: 100; }
+      .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li {
+        display: block; }
+        .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:first-child {
+          border-top: none; }
+        .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:last-child {
+          border-bottom: none; }
+        .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
+          background-color: #0b204e !important;
+          border-bottom: 1px solid rgba(153, 153, 153, 0.4) !important;
+          color: white !important;
+          line-height: 14px;
+          font-size: 14px !important;
+          height: auto;
+          padding: 15px; }
+          .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a:hover {
+            background: #000a34 !important;
+            color: #cc8e55 !important;
+            text-decoration: none;
+            padding: 18px 15px !important;
+            display: block;
+            font-weight: 600;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -ms-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            transition: all 0.2s ease; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li:hover {
+      color: #cc8e55;
+      text-decoration: none !important;
+      background-color: #0b204e; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
+      color: #cc8e55 !important;
+      text-decoration: none !important;
+      background-color: #0b204e; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu:hover {
       color: #cc8e55 !important;
       text-decoration: none !important; }
-    .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
-      height: auto; }
-@media (min-width: 768px) {
-  .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu {
-    width: 20%; } }
-@media (max-width: 767px) {
-  .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu {
-    width: 100%; }
-    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > a, .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
-      padding: 10px 15px !important; } }
+      .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
+        background-color: #0b204e;
+        height: auto; }
+      .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
+        color: #cc8e55 !important;
+        text-decoration: none !important; }
+      .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
+        height: auto; }
+  @media (min-width: 768px) {
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu {
+      display: flex;
+      align-items: center; } }
+  @media (max-width: 767px) {
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu {
+      width: 100%; }
+      .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > a, .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
+        padding: 10px 15px !important; } }
 
 /**
  * Slider Styles

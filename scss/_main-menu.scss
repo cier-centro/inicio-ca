@@ -5,16 +5,36 @@
  .#{$site-name} {
    #microsite_panel {
       .slide {
+        position: absolute;
+        top: 205px;
+        right: 0;
+        width: 760px;
+
           .pane-content {
               & > .menu {
-                  background-color: $main-menu-bg !important;
+                background-color: transparent !important;
+                display: flex;
+                align-items: center;
 
                   li {
                       &.parent_menu {
+
+                          &:before {
+                              content: "";
+                              min-width: 35px;
+                              background: $main-menu-item-icon;
+                              height: 55px;
+                          }
                           & > a {
-                              border-right: 1px solid $main-menu-horizontal-separator;
-                              padding: 10px 5px !important;
-                              font-size: 15px !important;
+                              padding: 5px !important;
+                              font-size: 13px !important;
+                              font-weight: 400 !important;
+                              height: 40px;
+                              background: $main-menu-item-color;
+                              min-width: 60px;
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
                           }
                           & > .children_menu {
                           top: 95%;
@@ -95,7 +115,8 @@
 
               @media (min-width: 768px) {
                   & > .menu li.parent_menu {
-                      width: 20%;
+                      display: flex;
+                      align-items: center;
                   }
               }
 
