@@ -740,16 +740,17 @@ h1.logo {
       text-decoration: none !important;
       background-color: transparent; }
       .site-inicioca #microsite_panel .slide .pane-content > .menu li:hover a {
-        background-color: #247184 !important; }
+        background-color: #15414c !important;
+        text-decoration: underline !important; }
     .site-inicioca #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
       color: #cc8e55 !important;
       text-decoration: none !important;
-      background-color: #247184; }
+      background-color: #15414c; }
     .site-inicioca #microsite_panel .slide .pane-content > .menu:hover {
       color: #cc8e55 !important;
       text-decoration: none !important; }
       .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
-        background-color: #247184;
+        background-color: #15414c;
         height: auto; }
       .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
         color: #cc8e55 !important;
