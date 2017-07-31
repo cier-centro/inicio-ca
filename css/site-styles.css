@@ -1167,4 +1167,23 @@ h1.logo {
 .site-inicioca .pager-item + .pager-current:before {
   padding-right: 7px; }
 
+/**
+ * Search Banner Styles
+ * --------------------------------------------------
+ */
+.site-inicioca .search-banner {
+  background: url("http://52.37.84.217/inicio-ca/img/img_search_bg.png") no-repeat 0 0/100% 100%; }
+  @media (min-width: 1100px) {
+    .site-inicioca .search-banner {
+      height: 260px; } }
+  @media (min-width: 1025px) and (max-width: 1099px) {
+    .site-inicioca .search-banner {
+      height: 244px; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .site-inicioca .search-banner {
+      height: 23.5vw; } }
+  @media (max-width: 767px) {
+    .site-inicioca .search-banner {
+      height: 22.5vw; } }
+
 /*# sourceMappingURL=site-styles.css.map */
