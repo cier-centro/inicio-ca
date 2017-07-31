@@ -22,8 +22,37 @@
                           &:before {
                               content: "";
                               min-width: 35px;
-                              background: $main-menu-item-icon;
-                              height: 55px;
+                              height: 50px;
+                              background: url("#{$images-path}img-spritesheet.png") no-repeat;
+                              border-top: 4px solid rgba(black, 0.3);
+                          }
+                          &:first-child:before {
+                              background-color: $main-menu-item-first-icon;
+                              background-position: -98px -11px;
+                          }
+                          &:nth-child(2):before {
+                              background-color: $main-menu-item-second-icon;
+                              background-position: -23px -11px;
+                          }
+                          &:nth-child(3):before {
+                              background-color: $main-menu-item-third-icon;
+                              background-position: -23px -54px;
+                          }
+                          &:nth-child(4):before {
+                              background-color: $main-menu-item-fourth-icon;
+                              background-position: -23px -103px;
+                          }
+                          &:nth-child(5):before {
+                              background-color: $main-menu-item-fifth-icon;
+                              background-position: -60px -11px;
+                          }
+                          &:nth-child(6):before {
+                              background-color: $main-menu-item-sixth-icon;
+                              background-position: -60px -54px;
+                          }
+                          &:nth-child(7):before {
+                              background-color: $main-menu-item-seventh-icon;
+                              background-position: -60px -103px;
                           }
                           & > a {
                               padding: 5px !important;
@@ -32,6 +61,7 @@
                               height: 40px;
                               background: $main-menu-item-color;
                               min-width: 60px;
+                              border: none;
                               display: flex;
                               align-items: center;
                               justify-content: center;
@@ -74,9 +104,13 @@
                       }
                       }
                       &:hover{
-                        color: $main-menu-text-hover;
-                        text-decoration: none !important;
-                        background-color: $main-menu-parent-hover-bg;
+                          color: $main-menu-text-hover;
+                          text-decoration: none !important;
+                          background-color: transparent;
+
+                          a {
+                              background-color: $main-menu-parent-hover-bg !important;
+                          }
                       }
                       &.expanded {
                           & > a {

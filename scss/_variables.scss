@@ -16,7 +16,7 @@ $content-bg:                      white !default;
 $headers-default-text-color:      #1F2B49 !default;
 $h2-text-color:                   #162a55 !default;
 $main-menu-bg:                    #2a569b !default;
-$main-menu-parent-hover-bg:       #0b204e !default;
+$main-menu-parent-hover-bg:       #247184 !default;
 $main-menu-text-hover:            #cc8e55 !default;
 $main-menu-horizontal-separator:  rgba(255, 255, 255, 0.3) !default;
 $main-menu-item-bg:               #0b204e !default;
@@ -46,7 +46,13 @@ $current-pager-color:             #DE3A73 !default;
 $search-btn-bg:                   #FF6E1F !default;
 $search-btn-border:               #F05127 !default;
 $main-menu-item-color:            #29879E !default;
-$main-menu-item-icon:             #00C9CA !default;
+$main-menu-item-first-icon:       #FF6E1F !default;
+$main-menu-item-second-icon:      #00C9CA  !default;
+$main-menu-item-third-icon:       #00CA3D  !default;
+$main-menu-item-fourth-icon:      #1E7AD7  !default;
+$main-menu-item-fifth-icon:       #C33357  !default;
+$main-menu-item-sixth-icon:       #EDC211  !default;
+$main-menu-item-seventh-icon:     #8823EB  !default;
 //Measures
 // -------------------------------
 $main-header-height:              132px;
