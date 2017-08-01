@@ -1430,6 +1430,11 @@ h1.logo {
   width: 55%;
   margin-left: 15px;
   display: inline-block; }
+  .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-title:before {
+    content: "";
+    width: 3px;
+    height: 15px;
+    background-color: #43c6d7; }
   .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-title a {
     text-decoration: none;
     color: black;
@@ -1448,6 +1453,11 @@ h1.logo {
   width: 60%; }
 .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .views-field-title {
   width: 35%; }
+  .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .views-field-title:before {
+    content: "";
+    width: 3px;
+    height: 15px;
+    background-color: #e36e30; }
 .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .views-field-created {
   width: 35%; }
 .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .views-field-body {
