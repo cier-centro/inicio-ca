@@ -1422,7 +1422,7 @@ h1.logo {
 .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content > .views-row {
   margin-top: 20px;
   display: inline-block; }
-.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-field-ag-image {
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-field-ag-image {
   width: 40%;
   display: block;
   float: left; }
@@ -1430,6 +1430,10 @@ h1.logo {
   width: 55%;
   margin-left: 15px;
   display: inline-block; }
+  .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-title a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600; }
 .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-created {
   width: 55%;
   margin-left: 15px;
@@ -1440,7 +1444,7 @@ h1.logo {
   width: 57%;
   margin-left: 5px;
   display: inline-block; }
-.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-field-ag-image {
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .views-field-field-ag-image {
   width: 60%; }
 .site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .views-field-title {
   width: 35%; }
