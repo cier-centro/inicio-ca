@@ -600,7 +600,7 @@ h1.logo {
   display: none; }
 .site-inicioca .special-programs {
   background: #3a617d;
-  margin-top: 0px; }
+  margin-top: 0px !important; }
 .site-inicioca .featured-content {
   background: #3a617d;
   margin-top: 0px !important; }
