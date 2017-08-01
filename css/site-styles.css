@@ -1356,10 +1356,10 @@ h1.logo {
       height: 130px;
       width: 130px; }
 
-.site-inicioca .contextual-links-region.panel-pane.col-md-8 {
+.site-inicioca .contextual-links-region.panel-pane.col-md-7 {
   margin-top: 20px;
   padding: 10px; }
-  .site-inicioca .contextual-links-region.panel-pane.col-md-8 > h2 {
+  .site-inicioca .contextual-links-region.panel-pane.col-md-7 > h2 {
     font-weight: 700;
     margin-top: 10px;
     padding: 10px;
@@ -1368,7 +1368,7 @@ h1.logo {
     border-radius: 10px 10px 0px 0px;
     color: #2a87a1;
     border-bottom: 2px solid #38627f; }
-    .site-inicioca .contextual-links-region.panel-pane.col-md-8 > h2:before {
+    .site-inicioca .contextual-links-region.panel-pane.col-md-7 > h2:before {
       content: "";
       width: 40px;
       height: 40px;
@@ -1376,20 +1376,20 @@ h1.logo {
       position: absolute;
       top: 22px;
       left: 15px; }
-  .site-inicioca .contextual-links-region.panel-pane.col-md-8 > .pane-content {
+  .site-inicioca .contextual-links-region.panel-pane.col-md-7 > .pane-content {
     padding: 15px;
     background-color: #dbeef6 !important; }
-  .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > li {
+  .site-inicioca .contextual-links-region.panel-pane.col-md-7 .quicktabs-tabs > li {
     margin-left: 8px;
     background-color: #dbeef6;
     border: 1px solid #2a87a1;
     border-radius: 10px 10px 0px 0px; }
-    .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > li > a {
+    .site-inicioca .contextual-links-region.panel-pane.col-md-7 .quicktabs-tabs > li > a {
       color: #2a87a1; }
-  .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > .active {
+  .site-inicioca .contextual-links-region.panel-pane.col-md-7 .quicktabs-tabs > .active {
     background-color: #2a87a1;
     border: none !important; }
-    .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > .active a {
+    .site-inicioca .contextual-links-region.panel-pane.col-md-7 .quicktabs-tabs > .active a {
       color: white !important; }
 .site-inicioca .contextual-links-region.panel-pane.pane-views-panes > .pane-title:before {
   background-position: -222px -10px; }
@@ -1398,5 +1398,55 @@ h1.logo {
 .site-inicioca .quicktabs_main {
   top: -5px !important;
   background-color: #2a87a1 !important; }
+
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda > h2 {
+  font-weight: 700;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 50px;
+  background-color: #2a87a1;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  border-bottom: 2px solid #38627f; }
+  .site-inicioca .panel-pane.pane-views.pane-recent-agenda > h2:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat;
+    background-position: -179px -102px;
+    position: absolute;
+    top: 22px;
+    left: 15px; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .agenda_quicktab {
+  display: none; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content > .views-row {
+  margin-top: 20px;
+  display: inline-block; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-field-ag-image {
+  width: 40%;
+  display: block;
+  float: left; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-title {
+  width: 55%;
+  margin-left: 15px;
+  display: inline-block; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-created {
+  width: 55%;
+  margin-left: 15px;
+  display: inline-block; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-label-created {
+  display: none; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-body {
+  width: 57%;
+  margin-left: 5px;
+  display: inline-block; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-field-ag-image {
+  width: 60%; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .views-field-title {
+  width: 35%; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .views-field-created {
+  width: 35%; }
+.site-inicioca .panel-pane.pane-views.pane-recent-agenda .view-content .views-row-first .views-field-body {
+  width: 37%; }
 
 /*# sourceMappingURL=site-styles.css.map */
