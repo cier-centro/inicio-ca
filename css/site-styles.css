@@ -783,6 +783,22 @@ h1.logo {
   overflow: hidden;
   height: 100%;
   padding-top: 10px; }
+  .site-inicioca #inicio_home_slider .pane-title {
+    background: #3A617D;
+    color: white;
+    padding: 10px 10px 10px 50px;
+    margin-top: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative; }
+    .site-inicioca #inicio_home_slider .pane-title:before {
+      content: "";
+      height: 45px;
+      width: 30px;
+      position: absolute;
+      top: 0;
+      left: 15px;
+      background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat -186px -53px; }
   .site-inicioca #inicio_home_slider .views_slideshow_controls_text_next,
   .site-inicioca #inicio_home_slider .views-slideshow-controls-text-previous {
     width: 55px;
@@ -825,7 +841,6 @@ h1.logo {
       bottom: 0;
       right: 0;
       background-color: rgba(41, 135, 158, 0.8);
-      padding: 0 15px 15px 30px;
       color: white;
       border-left: 7px solid #5BDEF4; }
       .site-inicioca #inicio_home_slider .views_slideshow_slide > div .views-field-nothing .title {
@@ -887,7 +902,8 @@ h1.logo {
   @media (min-width: 992px) {
     .site-inicioca #inicio_home_slider .views-field-nothing {
       width: 40%;
-      height: 40%; } }
+      height: 40%;
+      padding: 0 15px 15px 30px; } }
   @media (max-width: 991px) {
     .site-inicioca #inicio_home_slider .views-field-nothing {
       width: 100%;
@@ -895,19 +911,16 @@ h1.logo {
       padding: 0 15px 0 30px;
       display: flex;
       align-items: center;
-      justify-content: flex-start; }
-      .site-inicioca #inicio_home_slider .views-field-nothing .title {
-        border: none;
-        margin-bottom: 5px; }
-      .site-inicioca #inicio_home_slider .views-field-nothing .body {
-        display: none; } }
+      justify-content: flex-start; } }
   @media (max-width: 767px) {
     .site-inicioca #inicio_home_slider .views_slideshow_slide > div .views-field-php, .site-inicioca #inicio_home_slider .views_slideshow_slide > div .views-field-body {
       display: none; }
     .site-inicioca #inicio_home_slider .views_slideshow_slide > div .views-field-title {
       bottom: 0;
       height: 60px;
-      padding: 0 65px; } }
+      padding: 0 65px; }
+    .site-inicioca #inicio_home_slider .views-field-nothing .body {
+      display: none; } }
 
 /**
  * Tables Styles
