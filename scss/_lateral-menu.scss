@@ -10,19 +10,52 @@
      .pane-content{
        ul{
          background-color: transparent !important;
-         & > li{
-          margin-top: 5px;
-          background-color: $lateral-menu-bg !important;
-          width: 100%;
-          &:hover{
-             background-color: $lateral-menu-hover-bg;
-             }
+         & > li {
+            margin-top: 5px;
+            background-color: $lateral-menu-bg !important;
+            width: 100%;
+            &:hover{
+               background-color: $lateral-menu-hover-bg;
+            }
+            & > a {
+               padding: 0 15px 0 60px!important;
+               text-align: left;
+               display: flex !important;
+               align-items: center;
+               font-weight: 400 !important;
+               position: relative;
+               height: 60px;
 
-           & > a{
-             padding: 10px 0px !important;
-             &:hover{
-               text-decoration: none !important;
-             }
+               &:before {
+                 content: "";
+                 width: 48px;
+                 height: 60px;
+                 background: $lateral-menu-icon-bg url("#{$images-path}img-spritesheet.png") no-repeat;
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+               }
+               &:hover{
+                 text-decoration: none !important;
+               }
+           }
+           &:first-child > a:before {
+               background-position: -91px -48px;
+           }
+           &:nth-child(2) > a:before {
+               background-position: -91px -95px;
+           }
+           &:nth-child(3) > a:before {
+               background-position: -132px 0;
+           }
+           &:nth-child(4) > a:before {
+               background-position: -132px -52px;
+           }
+           &:nth-child(5) > a:before {
+               background-position: -132px -94px;
+           }
+           &:nth-child(6) > a:before {
+               background-position: -177px 1px;
            }
          }
        }
