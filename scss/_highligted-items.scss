@@ -3,7 +3,17 @@
     margin-top: 20px;
     padding: 10px;
     &>h2{
+      &:before{
+        content: "";
+        width: 48px;
+        height: 60px;
+        background: $lateral-menu-icon-bg url("#{$images-path}img-spritesheet.png") no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
       margin-top: 10px;
+      padding: 10px;
       background-color: white;
       border-radius: 10px 10px 0px 0px;
       color: $highligted-content-dark;
@@ -15,11 +25,12 @@
 
       .quicktabs-tabs{
         &>li {
-          background-color: $highligted-content-bg;
-          border: 2px solid $highligted-content-bg;
+          margin-left: 8px;
+          background-color: $highligted-content-dark;
+          border: 1px solid $highligted-content-bg;
           border-radius: 10px 10px 0px 0px;
           &>a{
-            color: white;
+            color: $highligted-content-dark;
           }
         }
         &>.active {
@@ -32,7 +43,23 @@
     }
 
   }
+  .contextual-links-region.panel-pane.pane-views-panes{
+    &>.pane-title{
+      &:before{
+
+      }
+    }
+  }
+  .contextual-links-region.panel-pane.pane-block.pane-quicktabs>.pane-title {
+    &>.pane-title{
+      &:before{
+
+      }
+    }
+  }
+
   .quicktabs_main {
+    top: -4px;
     background-color:  $highligted-content-dark !important;
   }
 }
