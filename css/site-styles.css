@@ -788,7 +788,8 @@ h1.logo {
 .site-inicioca #inicio_home_slider {
   overflow: hidden;
   height: 100%;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-bottom: 26px; }
   .site-inicioca #inicio_home_slider .pane-title {
     background: #3A617D;
     color: white;
