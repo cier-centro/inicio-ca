@@ -1314,6 +1314,7 @@ h1.logo {
   margin-top: 20px;
   padding: 10px; }
   .site-inicioca .contextual-links-region.panel-pane.col-md-8 > h2 {
+    font-weight: 700;
     margin-top: 10px;
     padding: 10px;
     padding-left: 50px;
@@ -1323,8 +1324,8 @@ h1.logo {
     border-bottom: 2px solid #38627f; }
     .site-inicioca .contextual-links-region.panel-pane.col-md-8 > h2:before {
       content: "";
-      width: 48px;
-      height: 60px;
+      width: 40px;
+      height: 40px;
       background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat;
       position: absolute;
       top: 22px;
@@ -1334,8 +1335,8 @@ h1.logo {
     background-color: #dbeef6 !important; }
   .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > li {
     margin-left: 8px;
-    background-color: #2a87a1;
-    border: 1px solid #dbeef6;
+    background-color: #dbeef6;
+    border: 1px solid #2a87a1;
     border-radius: 10px 10px 0px 0px; }
     .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > li > a {
       color: #2a87a1; }
@@ -1349,7 +1350,7 @@ h1.logo {
 .site-inicioca .contextual-links-region.panel-pane.pane-block.pane-quicktabs > .pane-title:before {
   background-position: -222px -56px; }
 .site-inicioca .quicktabs_main {
-  top: -4px;
+  top: -4px !important;
   background-color: #38627f !important; }
 
 /*# sourceMappingURL=site-styles.css.map */
