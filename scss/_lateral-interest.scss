@@ -1,0 +1,75 @@
+.#{$site-name} {
+  .panel-pane.pane-views.pane-recent-agenda{
+    &>h2{
+      font-weight: 700;
+      &:before{
+        content: "";
+        width: 40px;
+        height: 40px;
+        background: url("#{$images-path}img-spritesheet.png") no-repeat;
+        background-position: -179px -102px;
+        position: absolute;
+        top: 22px;
+        left: 15px;
+      }
+      margin-top: 10px;
+      padding: 10px;
+      padding-left: 50px;
+      background-color: $highligted-content;
+      border-radius: 10px 10px 0px 0px;
+      color: white;
+      border-bottom: 2px solid $highligted-content-dark;
+    }
+
+    .agenda_quicktab{
+      display: none;
+    }
+
+    .view-content{
+      &>.views-row{
+        margin-top: 20px;
+        display: inline-block;
+
+      }
+      .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-field-ag-image {
+        width: 40%;
+        display: block;
+        float: left;
+      }
+      .views-field-title{
+        width: 55%
+        margin-left: 15px;
+        display: inline-block;
+      }
+      .views-field-created{
+        width: 55%
+        margin-left: 15px;
+        display: inline-block;
+      }
+      .views-label-created{
+        display: none;
+      }
+      .views-field-body{
+        width: 57%;
+        margin-left: 5px;
+        display: inline-block;
+      }
+
+      .views-row-first{
+        .panel-pane.pane-views.pane-recent-agenda .view-content .views-field-field-ag-image {
+          width: 60%;
+        }
+        .views-field-title{
+          width: 35%
+        }
+        .views-field-created{
+          width: 35%
+        }
+        .views-field-body{
+          width: 37%;
+        }
+
+      }
+    }
+  }
+}
