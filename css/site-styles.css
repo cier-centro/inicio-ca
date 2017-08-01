@@ -1319,5 +1319,18 @@ h1.logo {
   .site-inicioca .contextual-links-region.panel-pane.col-md-8 > .pane-content {
     padding: 15px;
     background-color: #dbeef6 !important; }
+  .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > li {
+    background-color: #dbeef6;
+    border: 2px solid #dbeef6;
+    border-radius: 10px 10px 0px 0px; }
+    .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > li > a {
+      color: white; }
+  .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > .active {
+    background-color: #2a87a1;
+    border: none !important; }
+    .site-inicioca .contextual-links-region.panel-pane.col-md-8 .quicktabs-tabs > .active a {
+      color: white !important; }
+.site-inicioca .quicktabs_main {
+  background-color: #2a87a1 !important; }
 
 /*# sourceMappingURL=site-styles.css.map */

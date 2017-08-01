@@ -6,11 +6,33 @@
       margin-top: 10px;
       background-color: white;
       border-radius: 10px 10px 0px 0px;
-      color: $highligted-content-font;
+      color: $highligted-content-dark;
     }
     &>.pane-content{
         padding: 15px;
         background-color: $highligted-content-bg !important;
       }
+
+      .quicktabs-tabs{
+        &>li {
+          background-color: $highligted-content-bg;
+          border: 2px solid $highligted-content-bg;
+          border-radius: 10px 10px 0px 0px;
+          &>a{
+            color: white;
+          }
+        }
+        &>.active {
+          background-color: $highligted-content-dark;
+          border: none !important;
+          a{
+            color: white !important;
+        }
+      }
+    }
+
+  }
+  .quicktabs_main {
+    background-color:  $highligted-content-dark !important;
   }
 }
