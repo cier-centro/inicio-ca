@@ -1291,6 +1291,7 @@ h1.logo {
     border-radius: 10px 10px 0px 0px;
     color: #2a87a1; }
   .site-inicioca .contextual-links-region.panel-pane.col-md-8 > .pane-content {
+    padding: 15px;
     background-color: #dbeef6 !important; }
 
 /*# sourceMappingURL=site-styles.css.map */

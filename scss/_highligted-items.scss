@@ -9,6 +9,7 @@
       color: $highligted-content-font;
     }
     &>.pane-content{
+        padding: 15px;
         background-color: $highligted-content-bg !important;
       }
   }
