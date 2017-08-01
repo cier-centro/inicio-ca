@@ -3,10 +3,11 @@
     margin-top: 20px;
     padding: 10px;
     &>h2{
+      font-weight: 700;
       &:before{
         content: "";
-        width: 48px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
         background: url("#{$images-path}img-spritesheet.png") no-repeat;
         position: absolute;
         top: 22px;
@@ -28,8 +29,8 @@
       .quicktabs-tabs{
         &>li {
           margin-left: 8px;
-          background-color: $highligted-content;
-          border: 1px solid $highligted-content-bg;
+          background-color: $highligted-content-bg;
+          border: 1px solid $highligted-content;
           border-radius: 10px 10px 0px 0px;
           &>a{
             color: $highligted-content;
@@ -61,7 +62,7 @@
   }
 
   .quicktabs_main {
-    top: -4px;
+    top: -4px !important;
     background-color:  $highligted-content-dark !important;
   }
 }
