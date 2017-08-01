@@ -92,6 +92,9 @@
      }
      .highlighted-notes{
        background: #3a617d;
+       .pane-content{
+         background: #ffffff;
+       }
      }
      @media (min-width: 1100px) {
          .main_container {
