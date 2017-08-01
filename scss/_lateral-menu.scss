@@ -4,9 +4,9 @@
  */
 
  .#{$site-name} {
-   .main-lateral-panel{
-     padding-right: 0px;
+   .main-lateral-panel {
      padding-top: 10px;
+
      .pane-content{
        ul{
          background-color: transparent !important;
@@ -15,7 +15,7 @@
             background-color: $lateral-menu-bg !important;
             width: 100%;
             &:hover{
-               background-color: $lateral-menu-hover-bg;
+               background-color: $lateral-menu-hover-bg !important;
             }
             & > a {
                padding: 0 15px 0 60px!important;
@@ -59,6 +59,12 @@
            }
          }
        }
+     }
+
+     @media (min-width: 992px) {
+        & {
+            padding-right: 0;
+        }
      }
    }
  }

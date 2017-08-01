@@ -1178,7 +1178,6 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-inicioca .main-lateral-panel {
-  padding-right: 0px;
   padding-top: 10px; }
   .site-inicioca .main-lateral-panel .pane-content ul {
     background-color: transparent !important; }
@@ -1187,7 +1186,7 @@ h1.logo {
       background-color: #278a9b !important;
       width: 100%; }
       .site-inicioca .main-lateral-panel .pane-content ul > li:hover {
-        background-color: #1b5e69; }
+        background-color: #1b5e69 !important; }
       .site-inicioca .main-lateral-panel .pane-content ul > li > a {
         padding: 0 15px 0 60px !important;
         text-align: left;
@@ -1218,6 +1217,9 @@ h1.logo {
         background-position: -132px -96px; }
       .site-inicioca .main-lateral-panel .pane-content ul > li:nth-child(6) > a:before {
         background-position: -177px 1px; }
+  @media (min-width: 992px) {
+    .site-inicioca .main-lateral-panel {
+      padding-right: 0; } }
 
 /**
  * Pager Styles
