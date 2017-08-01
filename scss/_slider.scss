@@ -8,6 +8,18 @@
       height: 100%;
       padding-top: 10px;
 
+          .views_slideshow_controls_text_next,
+          .views-slideshow-controls-text-previous {
+              width: 60px;
+              height: 60px;
+
+              a {
+                  height: 100%;
+                  display: block;
+                  color: transparent;
+              		padding-bottom: 35px;
+              }
+          }
           .views-slideshow-controls-text-pause {
           		display: none;
           }
@@ -15,9 +27,7 @@
           		float: right;
 
               a {
-              		color: transparent;
-              		padding-bottom: 35px;
-              		background: rgba(black, 0.7) url("#{$images-path}img-spritesheet.png") no-repeat -298px -3px;;
+              		background: rgba(black, 0.7) url("#{$images-path}img-spritesheet.png") no-repeat -298px -3px;
 
                   &:hover {
                       background: rgba(white, 0.7) url("#{$images-path}img-spritesheet.png") no-repeat -298px -3px;;
@@ -25,13 +35,13 @@
               }
           }
           .views-slideshow-controls-text-previous {
+              float: left;
+
               a {
-              		color: transparent;
-              		padding-bottom: 35px;
-              		background: rgba(black, 0.7) url("#{$images-path}img-spritesheet.png") no-repeat -298px -3px;
+              		background: rgba(black, 0.7) url("#{$images-path}img-spritesheet.png") no-repeat -300px 0px;
 
                   &:hover {
-                      background: rgba(white, 0.7) url("#{$images-path}img-spritesheet.png") no-repeat -298px -3px;
+                      background: rgba(white, 0.7) url("#{$images-path}img-spritesheet.png") no-repeat -300px -47px;
                   }
               }
           }
@@ -141,7 +151,7 @@
                top: 33%;
                width: 100%;
                z-index: 10;
-               padding: 0 15px;
+               padding: 0;
           }
 
           @media (max-width: 767px) {
