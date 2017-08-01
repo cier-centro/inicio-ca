@@ -1,0 +1,15 @@
+.#{$site-name} {
+  .contextual-links-region.panel-pane.col-md-8{
+    margin-top: 20px;
+    padding: 10px;
+    &>h2{
+      margin-top: 10px;
+      background-color: white;
+      border-radius: 10px 10px 0px 0px;
+      color: $highligted-content-font;
+    }
+    &>.pane-content{
+        background-color: $highligted-content-bg !important;
+      }
+  }
+}

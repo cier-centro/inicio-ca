@@ -1282,4 +1282,15 @@ h1.logo {
       height: 130px;
       width: 130px; }
 
+.site-inicioca .contextual-links-region.panel-pane.col-md-8 {
+  margin-top: 20px;
+  padding: 10px; }
+  .site-inicioca .contextual-links-region.panel-pane.col-md-8 > h2 {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    color: #2a87a1; }
+  .site-inicioca .contextual-links-region.panel-pane.col-md-8 > .pane-content {
+    background-color: #dbeef6 !important; }
+
 /*# sourceMappingURL=site-styles.css.map */
