@@ -5,19 +5,14 @@
  .#{$site-name} {
    #microsite_panel {
       .slide {
-        position: absolute;
-        top: 205px;
-        right: 0;
-        width: 760px;
-
           .pane-content {
               & > .menu {
                 background-color: transparent !important;
-                display: flex;
-                align-items: center;
 
                   li {
                       &.parent_menu {
+                          display: flex;
+                          align-items: center;
 
                           &:before {
                               content: "";
@@ -60,48 +55,47 @@
                               font-weight: 400 !important;
                               height: 40px;
                               background: $main-menu-item-color;
-                              min-width: 60px;
                               border: none;
                               display: flex;
                               align-items: center;
                               justify-content: center;
                           }
                           & > .children_menu {
-                          top: 95%;
-                          height: 0px;
-                          background: transparent;
-                          z-index:100;
+                              top: 95%;
+                              height: 0px;
+                              background: transparent;
+                              z-index:100;
 
-                          li {
-                              display: block;
+                              li {
+                                  display: block;
 
-                              &:first-child {
-                                border-top: none;
-                              }
-                              &:last-child {
-                                border-bottom:none;
-                              }
-                              a {
-                                background-color: $main-menu-item-bg !important;
-                                border-bottom: 1px solid $main-menu-item-separator !important;
-                                color: white !important;
-                                line-height: 14px;
-                                font-size: 14px!important;
-                                height: auto;
-                                padding: 15px;
+                                  &:first-child {
+                                    border-top: none;
+                                  }
+                                  &:last-child {
+                                    border-bottom:none;
+                                  }
+                                  a {
+                                    background-color: $main-menu-item-bg !important;
+                                    border-bottom: 1px solid $main-menu-item-separator !important;
+                                    color: white !important;
+                                    line-height: 14px;
+                                    font-size: 14px!important;
+                                    height: auto;
+                                    padding: 15px;
 
-                                &:hover {
-                                    background: $main-menu-item-hover-bg !important;
-                                    color: $main-menu-text-hover !important;
-                                    text-decoration: none;
-                                    padding: 18px 15px!important;
-                                    display: block;
-                                    font-weight: 600;
-                                    @include transition-properties(all 0.2s ease);
-                                }
+                                    &:hover {
+                                        background: $main-menu-item-hover-bg !important;
+                                        color: $main-menu-text-hover !important;
+                                        text-decoration: none;
+                                        padding: 18px 15px!important;
+                                        display: block;
+                                        font-weight: 600;
+                                        @include transition-properties(all 0.2s ease);
+                                    }
+                                  }
                               }
                           }
-                      }
                       }
                       &:hover{
                           color: $main-menu-text-hover;
@@ -148,10 +142,24 @@
                   }
               }
 
-              @media (min-width: 768px) {
-                  & > .menu li.parent_menu {
+              @media (min-width: 992px) {
+                  & > .menu {
                       display: flex;
                       align-items: center;
+
+                      li.parent_menu > a {
+                          min-width: 60px;
+                      }
+                  }
+              }
+
+              @media (max-width: 991px) {
+                  & > .menu li.parent_menu {
+                      width: 100%;
+
+                      & > a {
+                          min-width: 100%;
+                      }
                   }
               }
 
@@ -167,6 +175,13 @@
 
                   }
               }
+          }
+
+          @media (min-width: 992px) {
+              position: absolute;
+              top: 205px;
+              right: 0;
+              width: 760px;
           }
       }
    }

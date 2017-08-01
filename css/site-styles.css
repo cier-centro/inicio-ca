@@ -657,13 +657,9 @@ h1.logo {
  * Main Menu Styles
  * --------------------------------------------------
  */
-.site-inicioca #microsite_panel .slide {
-  position: absolute;
-  top: 205px;
-  right: 0;
-  width: 760px; }
-  .site-inicioca #microsite_panel .slide .pane-content > .menu {
-    background-color: transparent !important;
+.site-inicioca #microsite_panel .slide .pane-content > .menu {
+  background-color: transparent !important; }
+  .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu {
     display: flex;
     align-items: center; }
     .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu:before {
@@ -699,7 +695,6 @@ h1.logo {
       font-weight: 400 !important;
       height: 40px;
       background: #29879E;
-      min-width: 60px;
       border: none;
       display: flex;
       align-items: center;
@@ -735,37 +730,50 @@ h1.logo {
             -ms-transition: all 0.2s ease;
             -o-transition: all 0.2s ease;
             transition: all 0.2s ease; }
-    .site-inicioca #microsite_panel .slide .pane-content > .menu li:hover {
-      color: #cc8e55;
-      text-decoration: none !important;
-      background-color: transparent; }
-      .site-inicioca #microsite_panel .slide .pane-content > .menu li:hover a {
-        background-color: #15414c !important;
-        text-decoration: underline !important; }
-    .site-inicioca #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
-      color: #cc8e55 !important;
-      text-decoration: none !important;
-      background-color: #15414c; }
-    .site-inicioca #microsite_panel .slide .pane-content > .menu:hover {
+  .site-inicioca #microsite_panel .slide .pane-content > .menu li:hover {
+    color: #cc8e55;
+    text-decoration: none !important;
+    background-color: transparent; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li:hover a {
+      background-color: #15414c !important;
+      text-decoration: underline !important; }
+  .site-inicioca #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
+    color: #cc8e55 !important;
+    text-decoration: none !important;
+    background-color: #15414c; }
+  .site-inicioca #microsite_panel .slide .pane-content > .menu:hover {
+    color: #cc8e55 !important;
+    text-decoration: none !important; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
+      background-color: #15414c;
+      height: auto; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
       color: #cc8e55 !important;
       text-decoration: none !important; }
-      .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
-        background-color: #15414c;
-        height: auto; }
-      .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
-        color: #cc8e55 !important;
-        text-decoration: none !important; }
-      .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
-        height: auto; }
-  @media (min-width: 768px) {
-    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu {
-      display: flex;
-      align-items: center; } }
-  @media (max-width: 767px) {
-    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu {
-      width: 100%; }
-      .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > a, .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
-        padding: 10px 15px !important; } }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
+      height: auto; }
+@media (min-width: 992px) {
+  .site-inicioca #microsite_panel .slide .pane-content > .menu {
+    display: flex;
+    align-items: center; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
+      min-width: 60px; } }
+@media (max-width: 991px) {
+  .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu {
+    width: 100%; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
+      min-width: 100%; } }
+@media (max-width: 767px) {
+  .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu {
+    width: 100%; }
+    .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > a, .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
+      padding: 10px 15px !important; } }
+@media (min-width: 992px) {
+  .site-inicioca #microsite_panel .slide {
+    position: absolute;
+    top: 205px;
+    right: 0;
+    width: 760px; } }
 
 /**
  * Slider Styles
