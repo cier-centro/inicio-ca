@@ -1189,9 +1189,35 @@ h1.logo {
       .site-inicioca .main-lateral-panel .pane-content ul > li:hover {
         background-color: #1b5e69; }
       .site-inicioca .main-lateral-panel .pane-content ul > li > a {
-        padding: 10px 0px !important; }
+        padding: 0 15px 0 60px !important;
+        text-align: left;
+        display: flex !important;
+        align-items: center;
+        font-weight: 400 !important;
+        position: relative;
+        height: 60px; }
+        .site-inicioca .main-lateral-panel .pane-content ul > li > a:before {
+          content: "";
+          width: 48px;
+          height: 60px;
+          background: #5BDEF4 url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat;
+          position: absolute;
+          top: 0;
+          left: 0; }
         .site-inicioca .main-lateral-panel .pane-content ul > li > a:hover {
           text-decoration: none !important; }
+      .site-inicioca .main-lateral-panel .pane-content ul > li:first-child > a:before {
+        background-position: -91px -48px; }
+      .site-inicioca .main-lateral-panel .pane-content ul > li:nth-child(2) > a:before {
+        background-position: -91px -95px; }
+      .site-inicioca .main-lateral-panel .pane-content ul > li:nth-child(3) > a:before {
+        background-position: -132px 0; }
+      .site-inicioca .main-lateral-panel .pane-content ul > li:nth-child(4) > a:before {
+        background-position: -132px -52px; }
+      .site-inicioca .main-lateral-panel .pane-content ul > li:nth-child(5) > a:before {
+        background-position: -132px -96px; }
+      .site-inicioca .main-lateral-panel .pane-content ul > li:nth-child(6) > a:before {
+        background-position: -177px 1px; }
 
 /**
  * Pager Styles
