@@ -9,14 +9,16 @@
         height: 60px;
         background: $lateral-menu-icon-bg url("#{$images-path}img-spritesheet.png") no-repeat;
         position: absolute;
-        top: 0;
+        top: 22px;
         left: 0;
       }
       margin-top: 10px;
       padding: 10px;
+      padding-left: 50px;
       background-color: white;
       border-radius: 10px 10px 0px 0px;
-      color: $highligted-content-dark;
+      color: $highligted-content;
+      border-bottom: 2px solid $highligted-content-dark;
     }
     &>.pane-content{
         padding: 15px;
@@ -26,15 +28,15 @@
       .quicktabs-tabs{
         &>li {
           margin-left: 8px;
-          background-color: $highligted-content-dark;
+          background-color: $highligted-content;
           border: 1px solid $highligted-content-bg;
           border-radius: 10px 10px 0px 0px;
           &>a{
-            color: $highligted-content-dark;
+            color: $highligted-content;
           }
         }
         &>.active {
-          background-color: $highligted-content-dark;
+          background-color: $highligted-content;
           border: none !important;
           a{
             color: white !important;
@@ -46,14 +48,14 @@
   .contextual-links-region.panel-pane.pane-views-panes{
     &>.pane-title{
       &:before{
-
+        background-position: -222px -10px;
       }
     }
   }
   .contextual-links-region.panel-pane.pane-block.pane-quicktabs>.pane-title {
     &>.pane-title{
       &:before{
-
+        background-position: -222px -56px;
       }
     }
   }
