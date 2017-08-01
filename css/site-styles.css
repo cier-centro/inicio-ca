@@ -790,15 +790,15 @@ h1.logo {
     .site-inicioca #inicio_home_slider .views_slideshow_controls_text_next a {
       color: transparent;
       padding-bottom: 35px;
-      background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat -59px -1px; }
+      background: rgba(0, 0, 0, 0.7) url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat -298px -3px; }
       .site-inicioca #inicio_home_slider .views_slideshow_controls_text_next a:hover {
-        background-position: -59px -55px !important; }
+        background: rgba(255, 255, 255, 0.7) url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat -298px -3px; }
   .site-inicioca #inicio_home_slider .views-slideshow-controls-text-previous a {
     color: transparent;
     padding-bottom: 35px;
-    background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat -6px -1px; }
+    background: rgba(0, 0, 0, 0.7) url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat -298px -3px; }
     .site-inicioca #inicio_home_slider .views-slideshow-controls-text-previous a:hover {
-      background-position: -6px -55px !important; }
+      background: rgba(255, 255, 255, 0.7) url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat -298px -3px; }
   .site-inicioca #inicio_home_slider .views_slideshow_slide, .site-inicioca #inicio_home_slider .views_slideshow_slide img {
     width: 100% !important; }
   .site-inicioca #inicio_home_slider .views_slideshow_slide label {
