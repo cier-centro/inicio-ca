@@ -1325,10 +1325,10 @@ h1.logo {
       content: "";
       width: 48px;
       height: 60px;
-      background: #5BDEF4 url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat;
+      background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat;
       position: absolute;
       top: 22px;
-      left: 0; }
+      left: 15px; }
   .site-inicioca .contextual-links-region.panel-pane.col-md-8 > .pane-content {
     padding: 15px;
     background-color: #dbeef6 !important; }
@@ -1346,7 +1346,7 @@ h1.logo {
       color: white !important; }
 .site-inicioca .contextual-links-region.panel-pane.pane-views-panes > .pane-title:before {
   background-position: -222px -10px; }
-.site-inicioca .contextual-links-region.panel-pane.pane-block.pane-quicktabs > .pane-title > .pane-title:before {
+.site-inicioca .contextual-links-region.panel-pane.pane-block.pane-quicktabs > .pane-title:before {
   background-position: -222px -56px; }
 .site-inicioca .quicktabs_main {
   top: -4px;

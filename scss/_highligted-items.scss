@@ -7,10 +7,10 @@
         content: "";
         width: 48px;
         height: 60px;
-        background: $lateral-menu-icon-bg url("#{$images-path}img-spritesheet.png") no-repeat;
+        background: url("#{$images-path}img-spritesheet.png") no-repeat;
         position: absolute;
         top: 22px;
-        left: 0;
+        left: 15px;
       }
       margin-top: 10px;
       padding: 10px;
@@ -52,7 +52,7 @@
       }
     }
   }
-  .contextual-links-region.panel-pane.pane-block.pane-quicktabs>.pane-title {
+  .contextual-links-region.panel-pane.pane-block.pane-quicktabs{
     &>.pane-title{
       &:before{
         background-position: -222px -56px;
