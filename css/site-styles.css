@@ -1173,12 +1173,13 @@ h1.logo {
   padding-right: 0px;
   padding-top: 10px; }
   .site-inicioca .main-lateral-panel .pane-content ul {
-    background-color: #868686 !important;
-    border-radius: 10px 0px 0px 10px; }
+    background-color: transparent !important; }
     .site-inicioca .main-lateral-panel .pane-content ul > li {
+      margin-top: 5px;
+      background-color: #278a9b !important;
       width: 100%; }
       .site-inicioca .main-lateral-panel .pane-content ul > li:hover {
-        background-color: #3c3c3a; }
+        background-color: #1b5e69; }
       .site-inicioca .main-lateral-panel .pane-content ul > li > a {
         padding: 10px 0px !important; }
         .site-inicioca .main-lateral-panel .pane-content ul > li > a:hover {

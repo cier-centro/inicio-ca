@@ -9,11 +9,12 @@
      padding-top: 10px;
      .pane-content{
        ul{
-         background-color: $lateral-menu-bg !important;
-         border-radius: 10px 0px 0px 10px;
+         background-color: transparent !important;
          & > li{
-           width: 100%;
-           &:hover{
+          margin-top: 5px;
+          background-color: $lateral-menu-bg !important;
+          width: 100%;
+          &:hover{
              background-color: $lateral-menu-hover-bg;
              }
 
