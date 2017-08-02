@@ -1427,10 +1427,12 @@ h1.logo {
         height: 200px !important; }
   .site-inicioca .contextual-links-region.panel-pane.pane-views-panes.pane-estudiantes-2016-panel-pane-6.col-md-12.alleys .view-content {
     min-height: 250px; }
-.site-inicioca .jcarousel-skin-default .jcarousel-clip-horizontal {
+.site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100% !important; }
-  .site-inicioca .jcarousel-skin-default .jcarousel-clip-horizontal .views-field.views-field-field-imagen-contenido img {
-    width: 100%; }
+  .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 100% !important; }
+    .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-skin-default .jcarousel-clip-horizontal .views-field.views-field-field-imagen-contenido img {
+      width: 100%; }
 .site-inicioca #jcarousel-sup .jcarousel-list-horizontal {
   width: 1300px !important; }
 
