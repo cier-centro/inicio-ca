@@ -44,7 +44,7 @@
     h2.title {
         display: none;
     }
-    ##{$site-slider}, .facebookca-content, .twitterca-content {
+    ##{$site-slider}, .facebookca-content, .twitterca-content, .alleys {
         .pane-title {
             background: $slider-title-bg;
             color: white;
@@ -89,6 +89,17 @@
 
             &:before {
               background-position: -271px -5px;
+            }
+        }
+    }
+    .alleys {
+        .pane-title {
+            background: transparent;
+            padding: 10px 10px 10px 58px !important;
+
+            &:before {
+              background-position: -266px -54px !important;
+              width: 38px !important;
             }
         }
     }

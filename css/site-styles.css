@@ -659,7 +659,7 @@ h1.logo {
   margin-top: 15px; }
 .site-inicioca h2.title {
   display: none; }
-.site-inicioca #inicio_home_slider .pane-title, .site-inicioca .facebookca-content .pane-title, .site-inicioca .twitterca-content .pane-title {
+.site-inicioca #inicio_home_slider .pane-title, .site-inicioca .facebookca-content .pane-title, .site-inicioca .twitterca-content .pane-title, .site-inicioca .alleys .pane-title {
   background: #3A617D;
   color: white;
   padding: 10px 10px 10px 50px;
@@ -667,7 +667,7 @@ h1.logo {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   position: relative; }
-  .site-inicioca #inicio_home_slider .pane-title:before, .site-inicioca .facebookca-content .pane-title:before, .site-inicioca .twitterca-content .pane-title:before {
+  .site-inicioca #inicio_home_slider .pane-title:before, .site-inicioca .facebookca-content .pane-title:before, .site-inicioca .twitterca-content .pane-title:before, .site-inicioca .alleys .pane-title:before {
     content: "";
     height: 45px;
     width: 30px;
@@ -687,6 +687,12 @@ h1.logo {
   background: #27A1D6; }
   .site-inicioca .twitterca-content .pane-title:before {
     background-position: -271px -5px; }
+.site-inicioca .alleys .pane-title {
+  background: transparent;
+  padding: 10px 10px 10px 58px !important; }
+  .site-inicioca .alleys .pane-title:before {
+    background-position: -266px -54px !important;
+    width: 38px !important; }
 
 /**
  * Main Menu Styles
