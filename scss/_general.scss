@@ -4,7 +4,7 @@
  */
  .#{$site-name} {
      .main_container {
-        @include main-background-properties($site-bg, $site-bg-shadow);
+         background: $site-bg;
      }
      #microsite_panel {
          background-color: $content-bg;

@@ -548,14 +548,7 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-inicioca .main_container {
-  background: #9ccde8;
-  background: -moz-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #9ccde8), color-stop(50%, #5d90aa), color-stop(100%, #9ccde8));
-  background: -webkit-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  background: -o-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  background: -ms-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  background: linear-gradient(to right, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CCDE8', endColorstr='#9CCDE8', GradientType=1 ); }
+  background: #E9F7F7; }
 .site-inicioca #microsite_panel {
   background-color: white;
   min-height: 820px; }
