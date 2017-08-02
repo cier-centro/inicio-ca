@@ -602,6 +602,9 @@ h1.logo {
   min-height: 533px; }
   .site-inicioca .highlighted-notes .pane-content {
     background: #ffffff; }
+.site-inicioca .facebookca-content .pane-content, .site-inicioca .twitterca-content .pane-content {
+  background: white;
+  text-align: center; }
 .site-inicioca #edit-cas-login-redirection-message {
   display: none; }
 .site-inicioca div#edit-actions--2 {
