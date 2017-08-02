@@ -46,10 +46,23 @@
           height: 200px !important;
         }
       }
-    }    
+    }
+    .view-content{
+      min-height: 250px;
+    }
   }
 
-  .view-content{
-    min-height: 250px;
+  .jcarousel-skin-default .jcarousel-clip-horizontal{
+    width: 100% !important;
+    .views-field.views-field-field-imagen-contenido {
+      img{
+        width: 100%;
+      }
+    }
+  }
+  #jcarousel-sup{
+    .jcarousel-list-horizontal{
+      width: 1300px !important;
+    }
   }
 }

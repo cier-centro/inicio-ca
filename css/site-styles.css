@@ -1402,8 +1402,14 @@ h1.logo {
       .site-inicioca .contextual-links-region.panel-pane.pane-views-panes.pane-estudiantes-2016-panel-pane-6.col-md-12.alleys .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-list-horizontal > li {
         width: 200px !important;
         height: 200px !important; }
-.site-inicioca .view-content {
-  min-height: 250px; }
+  .site-inicioca .contextual-links-region.panel-pane.pane-views-panes.pane-estudiantes-2016-panel-pane-6.col-md-12.alleys .view-content {
+    min-height: 250px; }
+.site-inicioca .jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 100% !important; }
+  .site-inicioca .jcarousel-skin-default .jcarousel-clip-horizontal .views-field.views-field-field-imagen-contenido img {
+    width: 100%; }
+.site-inicioca #jcarousel-sup .jcarousel-list-horizontal {
+  width: 1300px !important; }
 
 .site-inicioca .contextual-links-region.panel-pane.col-md-7 {
   margin-top: 20px;
