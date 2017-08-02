@@ -1432,10 +1432,10 @@ h1.logo {
 .site-inicioca #jcarousel-sup .jcarousel-list-horizontal {
   width: 1300px !important; }
 
-.site-inicioca .contextual-links-region.panel-pane.col-md-7 {
+.site-inicioca #jcarousel-sup, .site-inicioca #jcarousel-mid {
   margin-top: 20px;
   padding: 10px; }
-  .site-inicioca .contextual-links-region.panel-pane.col-md-7 > h2 {
+  .site-inicioca #jcarousel-sup > h2, .site-inicioca #jcarousel-mid > h2 {
     font-weight: 700;
     margin-top: 10px;
     padding: 10px;
@@ -1444,7 +1444,7 @@ h1.logo {
     border-radius: 10px 10px 0px 0px;
     color: #2a87a1;
     border-bottom: 2px solid #38627f; }
-    .site-inicioca .contextual-links-region.panel-pane.col-md-7 > h2:before {
+    .site-inicioca #jcarousel-sup > h2:before, .site-inicioca #jcarousel-mid > h2:before {
       content: "";
       width: 40px;
       height: 40px;
@@ -1452,20 +1452,20 @@ h1.logo {
       position: absolute;
       top: 22px;
       left: 15px; }
-  .site-inicioca .contextual-links-region.panel-pane.col-md-7 > .pane-content {
+  .site-inicioca #jcarousel-sup > .pane-content, .site-inicioca #jcarousel-mid > .pane-content {
     padding: 15px;
     background-color: #dbeef6 !important; }
-  .site-inicioca .contextual-links-region.panel-pane.col-md-7 .quicktabs-tabs > li {
+  .site-inicioca #jcarousel-sup .quicktabs-tabs > li, .site-inicioca #jcarousel-mid .quicktabs-tabs > li {
     margin-left: 8px;
     background-color: #dbeef6;
     border: 1px solid #2a87a1;
     border-radius: 10px 10px 0px 0px; }
-    .site-inicioca .contextual-links-region.panel-pane.col-md-7 .quicktabs-tabs > li > a {
+    .site-inicioca #jcarousel-sup .quicktabs-tabs > li > a, .site-inicioca #jcarousel-mid .quicktabs-tabs > li > a {
       color: #2a87a1; }
-  .site-inicioca .contextual-links-region.panel-pane.col-md-7 .quicktabs-tabs > .active {
+  .site-inicioca #jcarousel-sup .quicktabs-tabs > .active, .site-inicioca #jcarousel-mid .quicktabs-tabs > .active {
     background-color: #2a87a1;
     border: none !important; }
-    .site-inicioca .contextual-links-region.panel-pane.col-md-7 .quicktabs-tabs > .active a {
+    .site-inicioca #jcarousel-sup .quicktabs-tabs > .active a, .site-inicioca #jcarousel-mid .quicktabs-tabs > .active a {
       color: white !important; }
 .site-inicioca .contextual-links-region.panel-pane.pane-views-panes > .pane-title:before {
   background-position: -222px -10px; }
