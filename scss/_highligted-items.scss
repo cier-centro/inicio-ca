@@ -22,47 +22,52 @@
       border-bottom: 2px solid $highligted-content-dark;
     }
     &>.pane-content{
-        padding: 15px;
-        background-color: $highligted-content-bg !important;
-      }
+      padding: 15px;
+      background-color: $highligted-content-bg !important;
+    }
 
-      .quicktabs-tabs{
-        &>li {
-          margin-left: 8px;
-          background-color: $highligted-content-bg;
-          border: 1px solid $highligted-content;
-          border-radius: 10px 10px 0px 0px;
-          &>a{
-            color: $highligted-content;
-          }
-        }
-        &>.active {
-          background-color: $highligted-content;
-          border: none !important;
-          a{
-            color: white !important;
+    .quicktabs-tabs{
+      &>li {
+        margin-left: 8px;
+        background-color: $highligted-content-bg;
+        border: 1px solid $highligted-content;
+        border-radius: 10px 10px 0px 0px;
+        &>a{
+          color: $highligted-content;
         }
       }
+      &>.active {
+        background-color: $highligted-content;
+        border: none !important;
+        a{
+          color: white !important;
+        }
+      }
     }
 
   }
-  .contextual-links-region.panel-pane.pane-views-panes{
-    &>.pane-title{
-      &:before{
-        background-position: -222px -10px;
+  #jcarousel-sup{
+    .contextual-links-region.panel-pane.pane-views-panes{
+      &>.pane-title{
+        &:before{
+          background-position: -222px -10px;
+        }
       }
     }
   }
-  .contextual-links-region.panel-pane.pane-block.pane-quicktabs{
-    &>.pane-title{
-      &:before{
-        background-position: -222px -56px;
+  #jcarousel-mid{
+    .contextual-links-region.panel-pane.pane-block.pane-quicktabs{
+      &>.pane-title{
+        &:before{
+          background-position: -222px -56px;
+        }
       }
+    }
+    .quicktabs_main {
+      top: -5px !important;
+      background-color:  $highligted-content !important;
     }
   }
 
-  .quicktabs_main {
-    top: -5px !important;
-    background-color:  $highligted-content !important;
-  }
+
 }
