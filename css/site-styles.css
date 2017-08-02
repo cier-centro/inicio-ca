@@ -548,9 +548,16 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-inicioca .main_container {
-  background: #E9F7F7; }
+  background: #e9f7f7;
+  background: -moz-linear-gradient(left, #e9f7f7 0%, #5d90aa 50%, #e9f7f7 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #e9f7f7), color-stop(50%, #5d90aa), color-stop(100%, #e9f7f7));
+  background: -webkit-linear-gradient(left, #e9f7f7 0%, #5d90aa 50%, #e9f7f7 100%);
+  background: -o-linear-gradient(left, #e9f7f7 0%, #5d90aa 50%, #e9f7f7 100%);
+  background: -ms-linear-gradient(left, #e9f7f7 0%, #5d90aa 50%, #e9f7f7 100%);
+  background: linear-gradient(to right, #e9f7f7 0%, #5d90aa 50%, #e9f7f7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9F7F7', endColorstr='#E9F7F7', GradientType=1 ); }
 .site-inicioca #microsite_panel {
-  background: url("http://52.37.84.217/inicio-ca/img/bg-lines.png");
+  background-color: white;
   min-height: 820px; }
 .site-inicioca .content p a {
   text-decoration: underline;
@@ -602,9 +609,6 @@ h1.logo {
   min-height: 533px; }
   .site-inicioca .highlighted-notes .pane-content {
     background: #ffffff; }
-.site-inicioca .facebookca-content .pane-content, .site-inicioca .twitterca-content .pane-content {
-  background: white;
-  text-align: center; }
 .site-inicioca #edit-cas-login-redirection-message {
   display: none; }
 .site-inicioca div#edit-actions--2 {
