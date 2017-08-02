@@ -97,6 +97,12 @@
          background: #ffffff;
        }
      }
+     .facebookca-content, .twitterca-content {
+         .pane-content {
+             background: white;
+             text-align: center;
+         }
+     }
      #edit-cas-login-redirection-message{
        display:none;
      }
