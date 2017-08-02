@@ -14,51 +14,56 @@
                           display: flex;
                           align-items: center;
 
-                          &:before {
+                          & > a {
+                            padding: 5px 5px 5px 40px !important;
+                            font-size: 13px !important;
+                            font-weight: 400 !important;
+                            height: 40px;
+                            background: $main-menu-item-color;
+                            border: none;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 5px 0 5px;
+                            position: relative;
+                          }
+                          & > a:before {
                               content: "";
                               min-width: 35px;
                               height: 50px;
                               background: url("#{$images-path}img-spritesheet.png") no-repeat;
-                              border-top: 4px solid rgba(black, 0.3);
+                              border-top: 5px solid rgba(black, 0.3);
+                              position: absolute;
+                              top: -5px;
+                              left: 0;
                           }
-                          &:first-child:before {
+                          &:first-child > a:before {
                               background-color: $main-menu-item-first-icon;
                               background-position: -98px -11px;
                           }
-                          &:nth-child(2):before {
+                          &:nth-child(2) > a:before {
                               background-color: $main-menu-item-second-icon;
                               background-position: -23px -11px;
                           }
-                          &:nth-child(3):before {
+                          &:nth-child(3) > a:before {
                               background-color: $main-menu-item-third-icon;
                               background-position: -23px -54px;
                           }
-                          &:nth-child(4):before {
+                          &:nth-child(4) > a:before {
                               background-color: $main-menu-item-fourth-icon;
                               background-position: -23px -103px;
                           }
-                          &:nth-child(5):before {
+                          &:nth-child(5) > a:before {
                               background-color: $main-menu-item-fifth-icon;
                               background-position: -60px -11px;
                           }
-                          &:nth-child(6):before {
+                          &:nth-child(6) > a:before {
                               background-color: $main-menu-item-sixth-icon;
                               background-position: -60px -54px;
                           }
-                          &:nth-child(7):before {
+                          &:nth-child(7) > a:before {
                               background-color: $main-menu-item-seventh-icon;
                               background-position: -60px -103px;
-                          }
-                          & > a {
-                              padding: 5px !important;
-                              font-size: 13px !important;
-                              font-weight: 400 !important;
-                              height: 40px;
-                              background: $main-menu-item-color;
-                              border: none;
-                              display: flex;
-                              align-items: center;
-                              justify-content: center;
                           }
                           & > .children_menu {
                               top: 95%;
