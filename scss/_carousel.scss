@@ -1,6 +1,6 @@
 .#{$site-name} {
 
-  .alleys {
+  .allies {
     background-color: $highligted-content-dark !important;
     &>pane-title{
       color: white;
@@ -50,6 +50,12 @@
     .view-content{
       min-height: 250px;
     }
+    .jcarousel-next.jcarousel-next-horizontal{
+      top: 100px !important
+    }
+    .jcarousel-prev.jcarousel-prev-horizontal{
+      top: 100px !important
+    }
   }
   .jcarousel-skin-default .jcarousel-container-horizontal{
     width: 100% !important;
@@ -62,6 +68,15 @@
         }
       }
     }
+    .jcarousel-next.jcarousel-next-horizontal{
+      background-image: url(http://52.37.84.217/inicio-ca/img/img-spritesheet.png) !important;
+      background-position: -313px -312px !important;
+
+    }
+    .jcarousel-prev.jcarousel-prev-horizontal{
+      background-image: url(http://52.37.84.217/inicio-ca/img/img-spritesheet.png);
+      background-position: -267px -142px;
+    }
   }
   #jcarousel-sup{
     .jcarousel-list-horizontal{
@@ -70,3 +85,5 @@
     }
   }
 }
+
+background-position: -313px -308px;
