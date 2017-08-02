@@ -44,25 +44,21 @@
         }
       }
     }
-
   }
   #jcarousel-sup{
-    .contextual-links-region.panel-pane.pane-views-panes{
-      &>.pane-title{
-        &:before{
-          background-position: -222px -10px;
-        }
+    &>h2{
+      &:before{
+        background-position: -222px -10px;
       }
     }
   }
   #jcarousel-mid{
-    .contextual-links-region.panel-pane.pane-block.pane-quicktabs{
-      &>.pane-title{
-        &:before{
-          background-position: -222px -56px;
-        }
+    &>h2{
+      &:before{
+        background-position: -222px -56px;
       }
     }
+
     .quicktabs_main {
       top: -5px !important;
       background-color:  $highligted-content !important;

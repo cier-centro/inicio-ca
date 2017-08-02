@@ -1467,9 +1467,9 @@ h1.logo {
     border: none !important; }
     .site-inicioca #jcarousel-sup .quicktabs-tabs > .active a, .site-inicioca #jcarousel-mid .quicktabs-tabs > .active a {
       color: white !important; }
-.site-inicioca #jcarousel-sup .contextual-links-region.panel-pane.pane-views-panes > .pane-title:before {
+.site-inicioca #jcarousel-sup > h2:before {
   background-position: -222px -10px; }
-.site-inicioca #jcarousel-mid .contextual-links-region.panel-pane.pane-block.pane-quicktabs > .pane-title:before {
+.site-inicioca #jcarousel-mid > h2:before {
   background-position: -222px -56px; }
 .site-inicioca #jcarousel-mid .quicktabs_main {
   top: -5px !important;
