@@ -1353,8 +1353,23 @@ h1.logo {
       .site-inicioca .search-banner p {
         display: none; } }
 
+.site-inicioca .contextual-links-region.panel-pane.pane-views-panes.pane-estudiantes-2016-panel-pane-6.col-md-12.alleys {
+  background-color: #38627f !important; }
+  .site-inicioca .contextual-links-region.panel-pane.pane-views-panes.pane-estudiantes-2016-panel-pane-6.col-md-12.alleys > pane-title {
+    color: white;
+    margin-left: 30px;
+    padding: 10px; }
+    .site-inicioca .contextual-links-region.panel-pane.pane-views-panes.pane-estudiantes-2016-panel-pane-6.col-md-12.alleys > pane-title:before {
+      content: "";
+      width: 40px;
+      height: 40px;
+      background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat;
+      background-position: -265px -55px;
+      position: absolute;
+      top: 12px;
+      left: 15px; }
 .site-inicioca .view-content {
-  min-height: 150px; }
+  min-height: 250px; }
 .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal {
   width: 100% !important; }
   .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-skin-default .jcarousel-clip-horizontal {
@@ -1366,6 +1381,13 @@ h1.logo {
     .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-item.jcarousel-item-horizontal .alleys .views-field.views-field-field-imagen-contenido {
       height: 130px;
       width: 130px; }
+  .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-clip.jcarousel-clip-horizontal {
+    width: 100%; }
+  .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-list-horizontal {
+    width: 4200px !important; }
+    .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-list-horizontal > li {
+      width: 200px !important;
+      height: 200px !important; }
 
 .site-inicioca .contextual-links-region.panel-pane.col-md-7 {
   margin-top: 20px;

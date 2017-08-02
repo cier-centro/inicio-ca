@@ -1,20 +1,52 @@
 .#{$site-name} {
-  .view-content{
-    min-height: 150px;
+
+  .contextual-links-region.panel-pane.pane-views-panes.pane-estudiantes-2016-panel-pane-6.col-md-12.alleys {
+    background-color: $highligted-content-dark !important;
+    &>pane-title{
+      color: white;
+      margin-left: 30px;
+      padding: 10px;
+
+      &:before{
+        content: "";
+        width: 40px;
+        height: 40px;
+        background: url("#{$images-path}img-spritesheet.png") no-repeat;
+        background-position: -265px -55px;
+        position: absolute;
+        top: 12px;
+        left: 15px;
+      }
+    }
   }
+
+  .view-content{
+    min-height: 250px;
+  }
+
   .jcarousel-skin-default .jcarousel-container-horizontal{
     width: 100% !important;
     .jcarousel-skin-default .jcarousel-clip-horizontal{
       width: 100% !important;
     }
-  .jcarousel-item.jcarousel-item-horizontal .alleys {
-    min-height: 140px;
-    min-width: 140px;
-    margin-bottom: 50px;
-    .views-field.views-field-field-imagen-contenido {
-      height: 130px;
-      width: 130px;
+    .jcarousel-item.jcarousel-item-horizontal .alleys {
+      min-height: 140px;
+      min-width: 140px;
+      margin-bottom: 50px;
+      .views-field.views-field-field-imagen-contenido {
+        height: 130px;
+        width: 130px;
+      }
     }
-  }
+    .jcarousel-clip.jcarousel-clip-horizontal{
+      width: 100%;
+    }
+    .jcarousel-list-horizontal{
+      width: 4200px !important;
+      &>li{
+        width: 200px !important;
+        height: 200px !important;
+      }
+    }
   }
 }
