@@ -7,7 +7,7 @@
     color: $headers-default-text-color;
     margin-bottom: 0px !important;
 }
- .#{$site-name} {
+.#{$site-name} {
     .content {
         h1 {
             color: $h2-text-color;
@@ -43,5 +43,53 @@
     }
     h2.title {
         display: none;
+    }
+    ##{$site-slider}, .facebookca-content, .twitterca-content {
+        .pane-title {
+            background: $slider-title-bg;
+            color: white;
+            padding: 10px 10px 10px 50px;
+            margin-top: 5px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            position: relative;
+
+            &:before {
+                content: "";
+                height: 45px;
+                width: 30px;
+                position: absolute;
+                top: 0;
+                left: 15px;
+                background: url("#{$images-path}img-spritesheet.png") no-repeat;
+          }
+       }
+    }
+    ##{$site-slider} {
+        .pane-title {
+            background: $slider-title-bg;
+
+            &:before {
+              background-position: -186px -53px;
+            }
+        }
+    }
+    .facebookca-content {
+        .pane-title {
+            background: $facebook-title-bg;
+
+            &:before {
+              background-position: -229px -101px;
+            }
+        }
+    }
+    .twitterca-content {
+        .pane-title {
+            background: $twitter-title-bg;
+
+            &:before {
+              background-position: -271px -5px;
+            }
+        }
     }
 }

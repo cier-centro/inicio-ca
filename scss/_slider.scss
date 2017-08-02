@@ -9,26 +9,6 @@
       padding-top: 10px;
       margin-bottom: 26px;
 
-          .pane-title {
-              background: $slider-title-bg;
-              color: white;
-              padding: 10px 10px 10px 50px;
-              margin-top: 5px;
-              border-top-left-radius: 15px;
-              border-top-right-radius: 15px;
-              position: relative;
-
-              &:before {
-                content: "";
-                height: 45px;
-                width: 30px;
-                position: absolute;
-                top: 0;
-                left: 15px;
-                background: url("#{$images-path}img-spritesheet.png") no-repeat -186px -53px;
-              }
-          }
-
           .views_slideshow_controls_text_next,
           .views-slideshow-controls-text-previous {
               width: 55px;

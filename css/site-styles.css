@@ -663,6 +663,34 @@ h1.logo {
   margin-top: 15px; }
 .site-inicioca h2.title {
   display: none; }
+.site-inicioca #inicio_home_slider .pane-title, .site-inicioca .facebookca-content .pane-title, .site-inicioca .twitterca-content .pane-title {
+  background: #3A617D;
+  color: white;
+  padding: 10px 10px 10px 50px;
+  margin-top: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: relative; }
+  .site-inicioca #inicio_home_slider .pane-title:before, .site-inicioca .facebookca-content .pane-title:before, .site-inicioca .twitterca-content .pane-title:before {
+    content: "";
+    height: 45px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat; }
+.site-inicioca #inicio_home_slider .pane-title {
+  background: #3A617D; }
+  .site-inicioca #inicio_home_slider .pane-title:before {
+    background-position: -186px -53px; }
+.site-inicioca .facebookca-content .pane-title {
+  background: #2F6293; }
+  .site-inicioca .facebookca-content .pane-title:before {
+    background-position: -229px -101px; }
+.site-inicioca .twitterca-content .pane-title {
+  background: #27A1D6; }
+  .site-inicioca .twitterca-content .pane-title:before {
+    background-position: -271px -5px; }
 
 /**
  * Main Menu Styles
@@ -795,22 +823,6 @@ h1.logo {
   height: 100%;
   padding-top: 10px;
   margin-bottom: 26px; }
-  .site-inicioca #inicio_home_slider .pane-title {
-    background: #3A617D;
-    color: white;
-    padding: 10px 10px 10px 50px;
-    margin-top: 5px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    position: relative; }
-    .site-inicioca #inicio_home_slider .pane-title:before {
-      content: "";
-      height: 45px;
-      width: 30px;
-      position: absolute;
-      top: 0;
-      left: 15px;
-      background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat -186px -53px; }
   .site-inicioca #inicio_home_slider .views_slideshow_controls_text_next,
   .site-inicioca #inicio_home_slider .views-slideshow-controls-text-previous {
     width: 55px;
