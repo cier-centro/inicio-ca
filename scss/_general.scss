@@ -4,10 +4,10 @@
  */
  .#{$site-name} {
      .main_container {
-         background: $site-bg;
+        @include main-background-properties($site-bg, $site-bg-shadow);
      }
      #microsite_panel {
-         background: url("#{$images-path}bg-lines.png");
+         background-color: $content-bg;
          min-height: 820px;
      }
      .content {
@@ -97,11 +97,8 @@
          background: #ffffff;
        }
      }
-     .facebookca-content, .twitterca-content {
-        .pane-content {
-            background: white;
-            text-align: center;
-        }
+     #edit-cas-login-redirection-message{
+       display:none;
      }
      @media (min-width: 1100px) {
          .main_container {
