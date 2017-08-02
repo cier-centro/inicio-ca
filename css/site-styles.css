@@ -814,10 +814,18 @@ h1.logo {
     width: 100%; }
     .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > a, .site-inicioca #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
       padding: 10px 15px !important; } }
+@media (min-width: 1100px) {
+  .site-inicioca #microsite_panel .slide {
+    top: 205px; } }
+@media (min-width: 1050px) and (max-width: 1099px) {
+  .site-inicioca #microsite_panel .slide {
+    top: 190px; } }
+@media (min-width: 992px) and (max-width: 1049px) {
+  .site-inicioca #microsite_panel .slide {
+    top: 18.4vw; } }
 @media (min-width: 992px) {
   .site-inicioca #microsite_panel .slide {
     position: absolute;
-    top: 205px;
     right: 0;
     width: 760px; } }
 
