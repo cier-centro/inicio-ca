@@ -1285,15 +1285,22 @@ h1.logo {
         align-items: center;
         font-weight: 400 !important;
         position: relative;
-        height: 60px; }
-        .site-inicioca .main-lateral-panel .pane-content ul > li > a:before {
+        height: 72px; }
+        .site-inicioca .main-lateral-panel .pane-content ul > li > a:before, .site-inicioca .main-lateral-panel .pane-content ul > li > a:after {
           content: "";
           width: 48px;
-          height: 60px;
-          background: #5BDEF4 url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat;
           position: absolute;
           top: 0;
           left: 0; }
+        .site-inicioca .main-lateral-panel .pane-content ul > li > a:before {
+          height: 60px;
+          background: url("http://52.37.84.217/inicio-ca/img/img-spritesheet.png") no-repeat;
+          z-index: 1;
+          margin-top: 7px; }
+        .site-inicioca .main-lateral-panel .pane-content ul > li > a:after {
+          height: 72px;
+          background: #5BDEF4;
+          z-index: 0; }
         .site-inicioca .main-lateral-panel .pane-content ul > li > a:hover {
           text-decoration: none !important; }
       .site-inicioca .main-lateral-panel .pane-content ul > li:first-child > a:before {

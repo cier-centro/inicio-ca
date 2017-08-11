@@ -24,16 +24,26 @@
                align-items: center;
                font-weight: 400 !important;
                position: relative;
-               height: 60px;
+               height: 72px;
 
-               &:before {
+               &:before, &:after {
                  content: "";
                  width: 48px;
-                 height: 60px;
-                 background: $lateral-menu-icon-bg url("#{$images-path}img-spritesheet.png") no-repeat;
                  position: absolute;
                  top: 0;
                  left: 0;
+               }
+
+               &:before {
+                 height: 60px;
+                 background: url("#{$images-path}img-spritesheet.png") no-repeat;
+                 z-index: 1;
+                 margin-top: 7px;
+               }
+               &:after {
+                 height: 72px;
+                 background: $lateral-menu-icon-bg;
+                 z-index: 0;
                }
                &:hover{
                  text-decoration: none !important;
