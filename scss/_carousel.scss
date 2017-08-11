@@ -93,4 +93,9 @@
       padding: 0 40px;
     }
   }
+  .jcarousel-skin-default {
+    .jcarousel-prev-horizontal, .jcarousel-next-horizontal {
+      top: 34px;
+    }
+  }
 }
