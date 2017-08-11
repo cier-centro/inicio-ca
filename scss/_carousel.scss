@@ -76,14 +76,21 @@
     }
     .jcarousel-prev.jcarousel-prev-horizontal{
       background-image: url(http://52.37.84.217/inicio-ca/img/img-spritesheet.png);
-      
+
       background-position: -265px -313px;
     }
   }
   #jcarousel-sup{
     .jcarousel-list-horizontal{
       width: 1300px !important;
-
+    }
+    .jcarousel-skin-default .jcarousel-container-horizontal {
+      padding: 0 40px;
+    }
+  }
+  #jcarousel-mid {
+    .jcarousel-skin-default .jcarousel-container-horizontal {
+      padding: 0 40px;
     }
   }
 }

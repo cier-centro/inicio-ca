@@ -561,7 +561,8 @@ h1.logo {
     color: #94642d; }
 .site-inicioca .section_content .breadcrumb {
   margin-bottom: 0px;
-  height: 40px; }
+  height: 40px;
+  display: none; }
 .site-inicioca .section_content p {
   margin-top: 10px !important;
   color: #666666 !important;
@@ -602,7 +603,9 @@ h1.logo {
   background: #3a617d;
   min-height: 533px; }
   .site-inicioca .highlighted-notes .pane-content {
-    background: #ffffff; }
+    background: #ffffff;
+    padding: 0 15px;
+    min-height: 460px; }
 .site-inicioca .facebookca-content .pane-content, .site-inicioca .twitterca-content .pane-content {
   background: white;
   text-align: center; }
@@ -1449,6 +1452,10 @@ h1.logo {
     background-position: -265px -313px; }
 .site-inicioca #jcarousel-sup .jcarousel-list-horizontal {
   width: 1300px !important; }
+.site-inicioca #jcarousel-sup .jcarousel-skin-default .jcarousel-container-horizontal {
+  padding: 0 40px; }
+.site-inicioca #jcarousel-mid .jcarousel-skin-default .jcarousel-container-horizontal {
+  padding: 0 40px; }
 
 .site-inicioca #jcarousel-sup, .site-inicioca #jcarousel-mid {
   margin-top: 20px;
