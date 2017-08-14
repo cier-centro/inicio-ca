@@ -90,7 +90,10 @@
   }
   #jcarousel-mid {
     .jcarousel-skin-default .jcarousel-container-horizontal {
-      padding: 0 40px;
+      padding: 10px 40px 0;
+    }
+    .jcarousel li {
+      height: 80px;
     }
   }
   .jcarousel-skin-default {
