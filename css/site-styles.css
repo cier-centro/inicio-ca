@@ -601,11 +601,11 @@ h1.logo {
   margin-top: 0px !important; }
 .site-inicioca .highlighted-notes {
   background: #3a617d;
-  min-height: 533px; }
+  min-height: 513px; }
   .site-inicioca .highlighted-notes .pane-content {
     background: #ffffff;
     padding: 0 15px;
-    min-height: 460px; }
+    min-height: 445px; }
 .site-inicioca .facebookca-content .pane-content, .site-inicioca .twitterca-content .pane-content {
   background: white;
   text-align: center; }
@@ -1482,7 +1482,6 @@ h1.logo {
       top: 22px;
       left: 15px; }
   .site-inicioca #jcarousel-sup > .pane-content, .site-inicioca #jcarousel-mid > .pane-content {
-    padding: 15px;
     background-color: #dbeef6 !important; }
   .site-inicioca #jcarousel-sup .quicktabs-tabs > li, .site-inicioca #jcarousel-mid .quicktabs-tabs > li {
     margin-left: 8px;
@@ -1498,8 +1497,12 @@ h1.logo {
       color: white !important; }
 .site-inicioca #jcarousel-sup > h2:before {
   background-position: -222px -10px; }
+.site-inicioca #jcarousel-sup > .pane-content {
+  padding: 15px; }
 .site-inicioca #jcarousel-mid > h2:before {
   background-position: -222px -56px; }
+.site-inicioca #jcarousel-mid > .pane-content {
+  padding: 5px 10px; }
 .site-inicioca #jcarousel-mid .quicktabs_main {
   top: -5px !important;
   background-color: #2a87a1 !important; }

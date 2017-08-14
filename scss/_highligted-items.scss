@@ -22,10 +22,8 @@
       border-bottom: 2px solid $highligted-content-dark;
     }
     &>.pane-content{
-      padding: 15px;
       background-color: $highligted-content-bg !important;
     }
-
     .quicktabs-tabs{
       &>li {
         margin-left: 8px;
@@ -51,12 +49,18 @@
         background-position: -222px -10px;
       }
     }
+    &>.pane-content{
+      padding: 15px;
+    }
   }
   #jcarousel-mid{
     &>h2{
       &:before{
         background-position: -222px -56px;
       }
+    }
+    &>.pane-content{
+      padding: 5px 10px;
     }
 
     .quicktabs_main {
