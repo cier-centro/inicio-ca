@@ -1459,9 +1459,10 @@ h1.logo {
 .site-inicioca #jcarousel-mid .jcarousel-clip-horizontal {
   width: 489px; }
 .site-inicioca #jcarousel-mid .jcarousel-skin-default .jcarousel-container-horizontal {
-  padding: 10px 40px 0; }
+  padding: 10px 20px 0; }
 .site-inicioca #jcarousel-mid .jcarousel li {
-  height: 80px; }
+  height: 90px;
+  width: 90px !important; }
 .site-inicioca .jcarousel-skin-default .jcarousel-prev-horizontal, .site-inicioca .jcarousel-skin-default .jcarousel-next-horizontal {
   top: 34px; }
 
