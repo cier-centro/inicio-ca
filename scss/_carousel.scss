@@ -91,18 +91,20 @@
   #jcarousel-mid {
     .jcarousel-clip-horizontal {
       width: 489px;
+      margin: auto;
     }
     .jcarousel-skin-default .jcarousel-container-horizontal {
-      padding: 10px 20px 0;
+      padding: 5px 20px 0;
+      height: 120px;
     }
     .jcarousel li {
-      height: 90px;
-      width: 90px !important;
+      height: 115px;
+      width: 115px !important;
     }
   }
   .jcarousel-skin-default {
     .jcarousel-prev-horizontal, .jcarousel-next-horizontal {
-      top: 34px;
+      top: 45px;
     }
   }
 }
