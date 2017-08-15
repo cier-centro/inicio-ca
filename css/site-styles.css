@@ -1446,14 +1446,18 @@ h1.logo {
       width: 100%; }
   .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-next.jcarousel-next-horizontal {
     background-image: url(http://52.37.84.217/inicio-ca/img/img-spritesheet.png) !important;
-    background-position: -313px -312px !important; }
+    background-position: -317px -312px !important;
+    right: -15px; }
   .site-inicioca .jcarousel-skin-default .jcarousel-container-horizontal .jcarousel-prev.jcarousel-prev-horizontal {
     background-image: url(http://52.37.84.217/inicio-ca/img/img-spritesheet.png);
-    background-position: -265px -313px; }
+    background-position: -265px -313px;
+    left: -15px; }
 .site-inicioca #jcarousel-sup .jcarousel-list-horizontal {
   width: 1300px !important; }
 .site-inicioca #jcarousel-sup .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 0 40px; }
+.site-inicioca #jcarousel-mid .jcarousel-clip-horizontal {
+  width: 489px; }
 .site-inicioca #jcarousel-mid .jcarousel-skin-default .jcarousel-container-horizontal {
   padding: 10px 40px 0; }
 .site-inicioca #jcarousel-mid .jcarousel li {

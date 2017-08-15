@@ -71,13 +71,13 @@
     }
     .jcarousel-next.jcarousel-next-horizontal{
       background-image: url(http://52.37.84.217/inicio-ca/img/img-spritesheet.png) !important;
-      background-position: -313px -312px !important;
-
+      background-position: -317px -312px !important;
+      right: -15px;
     }
     .jcarousel-prev.jcarousel-prev-horizontal{
       background-image: url(http://52.37.84.217/inicio-ca/img/img-spritesheet.png);
-
       background-position: -265px -313px;
+      left: -15px;
     }
   }
   #jcarousel-sup{
@@ -89,6 +89,9 @@
     }
   }
   #jcarousel-mid {
+    .jcarousel-clip-horizontal {
+      width: 489px;
+    }
     .jcarousel-skin-default .jcarousel-container-horizontal {
       padding: 10px 40px 0;
     }
