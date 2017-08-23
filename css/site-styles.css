@@ -615,7 +615,7 @@ h1.logo {
   display: block;
   margin-top: -48px;
   margin-left: 24px; }
-.site-inicioca input#edit-submit--2, .site-inicioca .register, .site-inicioca .logout {
+.site-inicioca input#edit-submit--2, .site-inicioca .register a, .site-inicioca .logout a {
   padding: 5px;
   background: #ff6e1f;
   border: none;
