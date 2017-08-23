@@ -611,20 +611,32 @@ h1.logo {
   text-align: center; }
 .site-inicioca #edit-cas-login-redirection-message {
   display: none; }
-.site-inicioca div#edit-actions--2 {
-  display: block;
-  margin-top: -48px;
-  margin-left: 24px; }
 .site-inicioca input#edit-submit--2, .site-inicioca .register a, .site-inicioca .logout a {
   padding: 5px;
   background: #ff6e1f;
   border: none;
-  color: #ffffff; }
+  color: #ffffff;
+  font-size: 12px; }
+.site-inicioca .logout a {
+  height: 120px; }
+.site-inicioca .register a {
+  height: 75px; }
 .site-inicioca .remember_password, .site-inicioca .about_us {
   display: none; }
 @media (min-width: 1100px) {
   .site-inicioca .main_container .section_content {
     width: 1024px !important; } }
+@media (min-width: 992px) {
+  .site-inicioca .logout a {
+    margin-top: -41px;
+    display: flex;
+    margin-bottom: 15px;
+    width: 65px;
+    margin-left: 8px; }
+  .site-inicioca div#edit-actions--2 {
+    display: block;
+    margin-top: -38px;
+    margin-left: 76px; } }
 @media (min-width: 992px) and (max-width: 1024px) {
   .site-inicioca #microsite_panel {
     overflow: hidden; } }
