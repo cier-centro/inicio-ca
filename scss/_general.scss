@@ -121,7 +121,7 @@
        width: 120px;
      }
      .register a {
-       width: 75px;
+       width: 65px;
      }
      .remember_password, .about_us {
        display: none;
@@ -145,6 +145,17 @@
           margin-top: -38px;
           margin-left: 76px;
         }
+     }
+     @media (max-width: 991px) {
+       .pane-cas-login, .pane-cas-login + div + div, .pane-cas-login + div {
+         display: inline-flex;
+       }
+       .pane-cas-login + div {
+         width: 0;
+       }
+       .pane-cas-login, .pane-cas-login + div + div {
+         width: 49%;
+       }
      }
      @media (min-width: 992px) and (max-width: 1024px) {
          #microsite_panel {
