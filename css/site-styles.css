@@ -642,7 +642,8 @@ h1.logo {
   .site-inicioca .pane-cas-login + div {
     width: 0; }
   .site-inicioca .pane-cas-login, .site-inicioca .pane-cas-login + div + div {
-    width: 49%; }
+    width: 49%;
+    margin: 0 !important; }
     .site-inicioca .pane-cas-login *, .site-inicioca .pane-cas-login + div + div * {
       width: 100%; }
   .site-inicioca .signup-btn-section {
