@@ -618,20 +618,19 @@ h1.logo {
   color: #ffffff;
   font-size: 12px; }
 .site-inicioca .logout a {
-  height: 120px; }
+  width: 120px; }
 .site-inicioca .register a {
-  height: 75px; }
+  width: 75px; }
 .site-inicioca .remember_password, .site-inicioca .about_us {
   display: none; }
 @media (min-width: 1100px) {
   .site-inicioca .main_container .section_content {
     width: 1024px !important; } }
 @media (min-width: 992px) {
-  .site-inicioca .logout a {
+  .site-inicioca .register a, .site-inicioca .logout a {
     margin-top: -41px;
     display: flex;
     margin-bottom: 15px;
-    width: 65px;
     margin-left: 8px; }
   .site-inicioca div#edit-actions--2 {
     display: block;
