@@ -617,10 +617,6 @@ h1.logo {
   border: none;
   color: #ffffff;
   font-size: 12px; }
-.site-inicioca .logout a {
-  width: 120px; }
-.site-inicioca .register a {
-  width: 65px; }
 .site-inicioca .remember_password, .site-inicioca .about_us {
   display: none; }
 @media (min-width: 1100px) {
@@ -635,14 +631,27 @@ h1.logo {
   .site-inicioca div#edit-actions--2 {
     display: block;
     margin-top: -38px;
-    margin-left: 76px; } }
+    margin-left: 76px; }
+  .site-inicioca .logout a {
+    width: 120px; }
+  .site-inicioca .register a {
+    width: 65px; } }
 @media (max-width: 991px) {
   .site-inicioca .pane-cas-login, .site-inicioca .pane-cas-login + div + div, .site-inicioca .pane-cas-login + div {
     display: inline-flex; }
   .site-inicioca .pane-cas-login + div {
     width: 0; }
   .site-inicioca .pane-cas-login, .site-inicioca .pane-cas-login + div + div {
-    width: 49%; } }
+    width: 49%; }
+    .site-inicioca .pane-cas-login *, .site-inicioca .pane-cas-login + div + div * {
+      width: 100%; }
+  .site-inicioca .signup-btn-section {
+    margin: 10px; }
+    .site-inicioca .signup-btn-section * {
+      width: 100%; }
+  .site-inicioca input#edit-submit--2, .site-inicioca .register a, .site-inicioca .logout a {
+    display: flex;
+    justify-content: center; } }
 @media (min-width: 992px) and (max-width: 1024px) {
   .site-inicioca #microsite_panel {
     overflow: hidden; } }

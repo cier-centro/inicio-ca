@@ -117,12 +117,6 @@
         color: #ffffff;
         font-size: 12px;
      }
-     .logout a {
-       width: 120px;
-     }
-     .register a {
-       width: 65px;
-     }
      .remember_password, .about_us {
        display: none;
      }
@@ -145,6 +139,12 @@
           margin-top: -38px;
           margin-left: 76px;
         }
+        .logout a {
+          width: 120px;
+        }
+        .register a {
+          width: 65px;
+        }
      }
      @media (max-width: 991px) {
        .pane-cas-login, .pane-cas-login + div + div, .pane-cas-login + div {
@@ -154,8 +154,23 @@
          width: 0;
        }
        .pane-cas-login, .pane-cas-login + div + div {
-         width: 49%;
-       }
+           width: 49%;
+
+           * {
+              width: 100%;
+           }
+        }
+        .signup-btn-section {
+            margin: 10px;
+
+            * {
+               width: 100%;
+             }
+        }
+        input#edit-submit--2, .register a, .logout a {
+          display: flex;
+          justify-content: center;
+        }
      }
      @media (min-width: 992px) and (max-width: 1024px) {
          #microsite_panel {
